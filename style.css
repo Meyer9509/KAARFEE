@@ -472,6 +472,7 @@ footer {
     display: flex;
     justify-content: space-between;
     margin-bottom: -3px;
+    margin-top: 10px;
 }
 
 .headerblomster {

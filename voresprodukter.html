@@ -11,8 +11,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Domine:wght@400;500;600;700&family=Fraunces:wght@400;700&family=Kumbh+Sans:wght@500&family=PT+Mono&display=swap" rel="stylesheet">
     <link rel="icon" href="images/cirkellogo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
 </head>
 
+<!--- Vores Produkter-siden er kodet af Anders -->
 <body>
     <div class="headerblomster">
         <div class="blomster">
@@ -22,6 +24,8 @@
             <img src="images/ikoner-Mig&Frede2.webp" alt="Blomster højre">
         </div>
     </div>
+
+    <!-- Header er kodet af Mathias og Sofie -->
     <header>
         <a class="logo" href="index.html">
             <img id="headerlogo" src="images/logo.webp" alt="Header logo">
@@ -303,14 +307,55 @@
         </div>
     </div>
 
-    <div class="footerblomster">
-        <div class="blomster">
-            <img src="images/ikoner-Mig&Frede4.webp" alt="blomster venstre">
+    <div class="container">
+        <div class="content">
+          <div class="left-side">
+            <a href="https://www.google.com/maps?q=Kystvejen+5B+4600+K%C3%B8ge&rlz=1C5CHFA_enDK1023DK1023&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiiBDIHCAIQABiiBDIKCAMQABiiBBiJBTIHCAQQABiiBNIBBzY2MGowajeoAgCwAgA&um=1&ie=UTF-8&sa=X&ved=2ahUKEwihjtbC5qv_AhWQv4sKHRwCBlcQ_AUoAXoECAEQAw" target="_blank" class="address details">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="topic">Addresse</div>
+              <div class="text-one">Kystvejen 5B</div>
+              <div class="text-two">4600 Køge</div>
+            </a>
+            <a href="tel:42793436" class="phone details">
+              <i class="fas fa-phone-alt"></i>
+              <div class="topic">Telefon</div>
+              <div class="text-one">42 79 34 36</div>
+            </a>
+            <a href="mailto:kontakt@migogfrede.dk" class="email details">
+              <i class="fas fa-envelope"></i>
+              <div class="topic">E-mail</div>
+              <div class="text-one">kontakt@migogfrede.dk</div>
+            </a>
+          </div>
+          <div class="right-side">
+            <div class="topic-text">Send os en bestilling</div>
+            <p>Hvis du har en bestilling, en forespørgsel eller bare et spørgsmål, så send os endelig en besked og vi vil vende tilbage til dig hurtigst muligt!</p>
+          <form action="https://formsubmit.co/olsen9509@gmail.com" method="POST">
+
+            <input type="text" name="_honey" style="display: none;">
+
+          <!-- Disable Captcha -->
+          <input type="hidden" name="_captcha" value="false">
+
+          <input type="hidden" name="_next" value="http://iasbeats.com/succes.html">
+            <div class="input-box">
+              <input type="text" placeholder="Skriv dit navn" name="Navn" required>
+            </div>
+            <div class="input-box">
+              <input type="email" placeholder="Skriv din e-mail" name="E-mail" required>
+            </div>
+            <div class="input-box message-box">
+              <input type="text" placeholder="Skriv din besked" name="Besked" required>
+            </div>
+            <div class="button">
+              <input type="submit" value="Send besked">
+            </div>
+          </form>
         </div>
-        <div class="blomster">
-            <img src="images/ikoner-Mig&Frede3.webp" alt="blomster højre">
         </div>
-    </div>
+      </div>
+
+<!-- Footer er kodet af Isabel og Anders -->
 
 <footer>
     <section class="column">
