@@ -1,47 +1,162 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Mig og Frede er en hyggelig lille butik i Strøby Egede der forhandler lækre kvalitetsprodukter.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mig og Frede - Forside</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Mig & Frede - Forside</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Domine:wght@400;500;600;700&family=Fraunces:wght@400;700&family=Kumbh+Sans:wght@500&family=PT+Mono&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/cirkellogo.png">
 </head>
+
 <body>
-    <nav>
-        <img src="images/logo" alt="logo">
-        <hr>
-        <section>Om Os</section>
-        <section>Vores Produkter</section>
-        <section>Gavekurve & Blomster</section>
-    </nav>
-    <footer>
-            <section class="column">
-                <h3>Åbningstider</h3>
-                <p>Man-fre: 11-18</p>
-                <p>Lør: 9.30-14</p>
-                <p>Søn-&helligdage: Lukket</p>
-            </section>
-            <section class="column">
-                <h3>Kontakt os</h3>
-                <a href="tel:42794336">42 79 43 36</a>
-                <a href="mailto:kontakt@migogfrede.dk">kontakt@migogfrede.dk</a>
-                <p>Mig & Frede, Kystvejen 5b,</p>
-                <p>4600 Køge</p>
-            </section>
-            <div class="column" >
-                <h3>Gavekort</h3>
-                <p>Send en mail til:</p>
-                <a href="mailto:kontakt@migogfrede.dk">kontakt@migogfrede.dk</a>
-            </div>
-            <div class="column" >
-                <h3>Følg os på Sociale Medier</h3>
-                <div class="some">
-                    <a href="#Facebook"><img src="facebook.svg" alt="facebook logo"></a>
-                    <a href="#Instagram"><img src="instagram.svg" alt="Instagram logo"></a>
-                    <a href="#TikTok"><img src="tiktok.svg" alt="TikTok logo"></a>
-                </div>
-            </div>
-    </footer>
+    <div class="headerblomster">
+        <div class="blomster">
+            <img src="images/ikoner-Mig&Frede1.webp" alt="blomster venstre">
+        </div>
+        <div class="blomster">
+            <img src="images/ikoner-Mig&Frede2.webp" alt="blomster højre">
+        </div>
+    </div>
+    <header>
+        <a class="logo" href="index.html">
+            <img id="headerlogo" src="images/logo.webp" alt="header logo">
+        </a>
+       
+        <div id="linje">
+             <hr>
+        </div>
+
+        <nav>
+            <a href="omos.html">Om Os</a>
+            <a href="voresprodukter.html">Vores Produkter</a>
+            <a href="gaveblomster.html">Gavekurve og Blomster</a>
+        </nav>
+    </header>
+
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Billeder -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 8</div>
+      <img src="images/facade2-resize.webp" alt="mig og frede butiksfacade" style="width:100%">
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 8</div>
+      <img src="images/butik1-resize.webp" alt="afdeling med brugskunst og tøj" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 8</div>
+        <img src="images/butik2-resize.webp" alt="kager og romkugler" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 8</div>
+        <img src="images/butik8-resize.webp" alt="blomsterbuketter" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">5 / 8</div>
+        <img src="images/butik4-resize.png" alt="afdeling med brugskunst og tøj" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">6 / 8</div>
+        <img src="images/butik5-resize.webp" alt="butiksdisk" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">7 / 8</div>
+        <img src="images/butik9-resize.webp" alt="butiksvæg med en masse produkter" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">8 / 8</div>
+        <img src="images/butik7-resize.webp" alt="kaffemøller" style="width:100%">
+    </div>
+
+</div>
+
+    <section>
+
+        <h1 id="velkommen">
+        Velkommen til Mig & Frede <br> <br>
+        </h1>
+
+        <p id="velkommentekst">
+        Vi er en lille hyggelig specialvarebutik i Strøby Egede,
+        med lækre produkter til de kvalitetsbevidste. <br><br>
+        Kom ned og bestil din næste gave, 
+        få en kop nymalet specialkaffe, eller bare en sludder. <br>
+        Vi står klar hernede til at hjælpe dig med hvad end du går og mangler. <br><br>
+
+        Vi ses hos Mig & Frede!
+        </p>
+    </section>
+
+    <div id="box">
+
+        <div class="kategori">
+            <img src="images/gavekurve-forside.webp" alt="gavekurve med vin, chokolade og krydderier">
+            <h2 class="katoverskrift">Gavekurve</h2>
+            <p class="kattekst">Med lækkerier i form af vin, chokolade, luksusøl, lækre olier og krydderier.
+            </p>
+        </div>
+        <div class="kategori">
+            <img src="images/buketter-forside.webp" alt="buketter med friske blomster">
+            <h2 class="katoverskrift">Buketter</h2>
+            <p class="kattekst">Vi henter friske blomster hver torsdag direkte fra 
+                grønttorvet og laver smukke buketter lige til at hente.
+            </p>
+        </div>
+        <div class="kategori">
+            <img src="images/kopTe.webp" alt="kaffe, te og kakao">
+            <h2 class="katoverskrift">Kaffe, te og kakao</h2>
+            <p class="kattekst">Køb det sammen med en lækker kage, 
+                og ta' det med dig eller nyd det her hos os.
+            </p>
+        </div>
+    </div>
+
+    <script src="my.js">
+    </script>
+
+<footer>
+    <section class="column">
+        <h3>Åbningstider</h3>
+        <p>Man-fre: 11-18</p>
+        <p>Lør: 9.30-14</p>
+        <p>Søn-& helligdage: Lukket</p>
+    </section>
+    <section class="column">
+        <h3>Kontakt os</h3>
+        <a href="tel:42794336" style="font-family: 'Domine', serif;">42 79 43 36</a>
+        <a href="mailto:kontakt@migogfrede.dk" style="font-family: 'Domine', serif;">kontakt@migogfrede.dk</a>
+        <p>Mig & Frede, Kystvejen 5b,</p>
+        <p>4600 Køge</p>
+    </section>
+    <div class="column" >
+        <h3>Gavekort</h3>
+        <p>Send en mail til:</p>
+        <a href="mailto:kontakt@migogfrede.dk" style="font-family: 'Domine', serif;">kontakt@migogfrede.dk</a>
+    </div>
+    <div class="column" >
+        <h3>Følg os på sociale medier</h3>
+        <div class="some">
+            <a href="https://www.facebook.com/migogfrede" target="_blank"><img src="images/facebook.webp" alt="Facebook logo"></a>
+            <a href="https://www.instagram.com/migogfrede/" target="_blank"><img src="images/instagram.webp" alt="Instagram logo"></a>
+            <a href="#TikTok"><img src="images/tiktok.webp" alt="TikTok logo"></a>
+        </div>
+    </div>
+</footer>
 </body>
+
 </html>
