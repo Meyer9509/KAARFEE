@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Her kan du få et overblik over alle vores lækre produkter og lade dig blive inspireret.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mig & Frede - Vores Produkter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Domine:wght@400;500;600;700&family=Fraunces:wght@400;700&family=Kumbh+Sans:wght@500&family=PT+Mono&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/cirkellogo.png">
+</head>
+
+<body>
+    <div class="headerblomster">
+        <div class="blomster">
+            <img src="images/ikoner-Mig&Frede1.webp" alt="Blomster venstre">
+        </div>
+        <div class="blomster">
+            <img src="images/ikoner-Mig&Frede2.webp" alt="Blomster højre">
+        </div>
+    </div>
+    <header>
+        <a class="logo" href="index.html">
+            <img id="headerlogo" src="images/logo.webp" alt="Header logo">
+        </a>
+       
+        <div id="linje">
+             <hr>
+        </div>
+
+        <nav>
+            <a href="omos.html">Om Os</a>
+            <a class="aktiv" href="voresprodukter.html">Vores Produkter</a>
+            <a href="gaveblomster.html">Gavekurve og Blomster</a>
+        </nav>
+    </header>
+
+    <div class="produktheader">
+        <img src="images/produkter-resize.webp" alt="Vores Produkter">
+        <div class="produkttekst">
+            <h1>
+                Vores Produkter
+            </h1>
+        </div>
+    </div>
+
+    <div class="produkter">
+        <button onclick="showPopup('Te')" class="produkt prodoverskrift">
+            <img src="images/the-resize.webp" alt="Te">
+            Te
+        </button>
+        <div id="Te" class="popup">
+            <div class="blocker" onclick="hidePopup('Te')"></div>
+            <div class="indhold">
+                <h2>Te</h2>
+                <div class="indhold2">
+                    <p>Vores sortiment af kvalitetste i løs vægt er en kilde til glæde for teentusiaster. Vi samarbejder med anerkendte teavlere og -producenter for at sikre, at vi kun tilbyder te af højeste kvalitet. <br> <br>
+
+                    I vores butik kan du vælge mellem et bredt udvalg af tevarianter, herunder klassiske sorter som Earl Grey og Darjeeling, beroligende urteteer, forfriskende grønne teer og spændende blandede teblandinger. Vi er stolte af at kunne tilbyde dig en alsidig og unik smagsoplevelse, der passer til enhver smag og anledning.</p>
+                    <img src="images/te2.webp" alt="Udvalg af te">
+                </div>
+            </div>
+        </div>
+
+        <button onclick="showPopup('kaffe')" class="produkt prodoverskrift">
+            <img src="images/kaffe-resize.webp" alt="kaffe">
+            Kaffe
+        </button>
+        <div id="kaffe" class="popup">
+            <div class="blocker" onclick="hidePopup('kaffe')"></div>
+            <div class="indhold">
+                <h2>Kaffe</h2>
+                <div class="indhold2">
+                    <p>Vores sortiment af kvalitetskaffe er omhyggeligt udvalgt fra de bedste kaffeproducenter. <br> <br>
+
+                        Uanset om du foretrækker en intens espresso, en silkeblød cappuccino eller en velduftende filterkaffe, har vi det perfekte udvalg til dig. Vores kvalitetskaffe er tilgængelig i forskellige kaffeblandinger og enkeltbønne-varianter, der hver især bringer deres egne karakteristika og smagsnuancer til din kop. <br> <br>
+                        
+                        Kom ned i butikken og få en ‘’tag med kaffe’’ og nyd den ved stranden eller i butikken.</p>
+                    <img src="images/kaffe2.webp" alt="Udvalg af kaffe">
+                </div>
+            </div>
+        </div>
+
+        <button onclick="showPopup('kage')" class="produkt prodoverskrift">
+            <img src="images/kage-resize.webp" alt="kage og chokolade">
+                Kage og chokolade
+        </button>
+        <div id="kage" class="popup">
+            <div class="blocker" onclick="hidePopup('kage')"></div>
+            <div class="indhold">
+                <h2>Kage og chokolade</h2>
+                <div class="indhold2">
+                    <p>Vi er stolte af at tilbyde lækre kager og romkugler fra det berømte Nørre Aaby Bageri på Fyn. Vi er dedikerede til at bringe den autentiske smag og kvalitet fra dette anerkendte bageri direkte til vores kunder. <br> <br>
+
+                        Nørre Aaby Bageri er kendt for deres håndværk og traditionelle tilgang til bagning. Deres kager og romkugler er skabt med omhu og bruger kun de bedste ingredienser for at sikre en enestående smagsoplevelse. Hver bid af deres kager og romkugler er fyldt med ren glæde og sødme.</p>
+                    <img src="images/kage2.webp" alt="Kage">
+                </div>            
+            </div>
+        </div>
+
+        <button onclick="showPopup('gavekurve')" class="produkt prodoverskrift">
+            <img src="images/gavekurv-resize.webp" alt="Gavekurve">
+            Gavekurve
+        </button>
+        <div id="gavekurve" class="popup">
+            <div class="blocker" onclick="hidePopup('gavekurve')"></div>
+            <div class="indhold">
+                <h2>Gavekurve</h2>
+                <div class="indhold2">
+                    <p>Vi tilbyder en skræddersyet gavekurvoplevelse. Uanset om du leder efter den perfekte gave til en særlig person eller ønsker at forkæle dig selv, giver vi dig mulighed for at vælge mellem vores færdiglavede gavekurve eller selv sammensætte en kurv nede i butikken. <br> <br>
+
+                        Vi tilbyder et bredt udvalg af produkter, som du frit kan vælge imellem, så du kan skabe den perfekte kombination af gaver. Vores venlige personale vil være glade for at assistere dig og give råd om valg af produkter, der passer til din kurv.</p>
+                    <img src="images/gavekurve2.webp" alt="Udvalg af gavekurve">
+                </div>            
+            </div>
+        </div>
+
+        <button onclick="showPopup('blomster')" class="produkt prodoverskrift">
+            <img src="images/blomster-resize.webp" alt="Blomster">
+            Blomster
+        </button>
+        <div id="blomster" class="popup">
+            <div class="blocker" onclick="hidePopup('blomster')"></div>
+            <div class="indhold">
+                <h2>Blomster</h2>
+                <div class="indhold2">
+                    <p>Vi er stolte af at tilbyde et bredt udvalg af blomster og buketter, der nøje udvælges og hentes på Grønttorvet hver torsdag. <br> <br>
+
+                        Ved at hente blomster og buketter direkte fra torvet kan vi sikre, at vores kunder altid får de mest friske og smukke blomster. Vi samarbejder tæt med dygtige blomsteravlere og leverandører på torvet for at sikre, at vores sortiment er fyldt med de bedste blomster, som naturen har at tilbyde.</p>
+                    <img src="images/blomster2.webp" alt="Udvalg af blomster">
+                </div>
+            </div>
+        </div>
+
+        <button onclick="showPopup('lakrids')" class="produkt prodoverskrift">
+            <img src="images/lakrids-resize.webp" alt="Lakrids">
+            Lakrids
+        </button>
+        <div id="lakrids" class="popup">
+            <div class="blocker" onclick="hidePopup('lakrids')"></div>
+            <div class="indhold">
+                <h2>Lakrids</h2>
+                <div class="indhold2">
+                    <p>Når du træder ind i vores butik, vil du straks fornemme en aura af fortryllelse og fristelse. De hyldede mærker, som vi præsenterer, har alle en unik karakter og smag. Johan Bülow, kendt for sin innovative tilgang og kunstfærdige sammensætning af ingredienser. Bagsværd Lakrids tilbyder en autentisk og traditionel oplevelse med deres håndlavede lakridskreationer. Solrød Lakrids er synonymt med kvalitet og ekspertise og er kendt for deres subtile og sofistikerede smagsnoter. <br> <br>
+
+                        Vi har omhyggeligt udvalgt vores sortiment for at sikre, at vores kunder får adgang til det bedste af det bedste. Ud over de nævnte mærker finder du hos os også andre velrenommerede producenter, der deler vores lidenskab for kvalitetslakrids. Fra sød og mild til salt og krydret - vores butik har noget for enhver smag.</p>
+                    <img src="images/lakrids2.webp" alt="Udvalg af lakrids">
+                </div>
+            </div>
+        </div>
+
+        <button onclick="showPopup('brugskunst')" class="produkt prodoverskrift">
+            <img src="images/brugskunst-resize.webp" alt="Brugskunst">
+            Brugskunst
+        </button>
+        <div id="brugskunst" class="popup">
+            <div class="blocker" onclick="hidePopup('brugskunst')"></div>
+            <div class="indhold">
+                <h2>Brugskunst</h2>
+                <div class="indhold2">
+                    <p>I vores butik finder du lidt af hvert inden for brugskunst, der er omhyggeligt udvalgt for deres kvalitet, æstetik og historie. Vi tilbyder alt fra smukt designede keramikprodukter og håndlavede tekstiler til elegant glasværk og unikke dekorative genstande. <br> <br>
+
+                        Vores sortiment afspejler en bred vifte af stilarter og temaer. Uanset om du ønsker at tilføje et strejf af elegance, rustik charme eller moderne flair til dit hjem, er vores udvalg skabt til at inspirere og imponere.</p>
+                    <img src="images/brugskunst3.webp" alt="Brugskunst">
+                </div>
+            </div>
+        </div>
+
+        <button onclick="showPopup('tøj')" class="produkt prodoverskrift">
+            <img src="images/tøj-resize.webp" alt="Tøj">
+            Tøj
+        </button>
+        <div id="tøj" class="popup">
+            <div class="blocker" onclick="hidePopup('tøj')"></div>
+            <div class="indhold">
+                <h2>Tøj</h2>
+                <div class="indhold2">
+                    <p>Når du træder ind i vores butik, vil du straks blive mødt af en atmosfære af raffinement og en følelse af æstetisk appel. Vi har et lille udvalg af tøj for at sikre, at hver enkelt stykke afspejler vores vision om enestående kvalitet og tidløs stil. Vores sortiment består af nøje udvalgte mærker, der er kendt for deres håndværk, kvalitetsmaterialer og for deres fokus på detaljer.</p>
+                    <img src="images/tøj2.webp" alt="Udvalg af tøj">
+                </div>
+            </div>
+        </div>
+
+        <button onclick="showPopup('heliumballoner')" class="produkt prodoverskrift">
+            <img src="images/helium-resize.webp" alt="Heliumballoner">
+            Heliumballoner
+        </button>
+        <div id="heliumballoner" class="popup">
+            <div class="blocker" onclick="hidePopup('heliumballoner')"></div>
+            <div class="indhold">
+                <h2>Heliumballoner</h2>
+                <div class="indhold2">
+                    <p>Vi er glade for at kunne gøre din gave lidt ekstra speciel med en heliumballon, til lige præcis den begivenhed du skal til. <br> <br>
+
+                        Uanset om det er en fødselsdag, bryllup, jubilæum, babyshower, Valentinsdag eller en hvilken som helst anden festlig begivenhed, har vi ballonerne, der vil tilføje en ekstra touch af festlighed. Vores heliumballoner kommer i forskellige farver, former og størrelser, så du kan finde præcis den ballon, der passer til dit tema og stil. Køb den alene eller sammen med en buket eller gavekurv.</p>
+                    <img src="images/balloner.webp" alt="Heliumballoner">
+                </div>
+            </div>
+        </div>
+
+        <button onclick="showPopup('pleje')" class="produkt prodoverskrift">
+            <img src="images/pleje-resize.webp" alt="Pleje">
+            Pleje
+        </button>
+        <div id="pleje" class="popup">
+            <div class="blocker" onclick="hidePopup('pleje')"></div>
+            <div class="indhold">
+                <h2>Pleje</h2>
+                <div class="indhold2">
+                    <p>Vi tilbyder vores kunder et bredt udvalg af lækre sager til at pleje kroppen og forkæle sanserne. Vores sortiment omfatter en række fantastiske produkter, herunder sæber, scrubs, cremer og meget mere. <br> <br>
+
+                        Vi tror på vigtigheden af ​​at forkæle sig selv og give kroppen den opmærksomhed, den fortjener. Derfor har vi udvalgt vores sortiment for at sikre, at vi kun tilbyder produkter af højeste kvalitet. Meraki er et anerkendt mærke, der er kendt for deres naturlige og økologiske ingredienser samt deres fokus på effektivitet og velvære. Deres produkter er designet til at forvandle din daglige rutine til en oplevelse af ren nydelse og velvære.</p>
+                    <img src="images/pleje2.webp" alt="Udvalg af pleje">
+                </div>
+            </div>
+        </div>
+
+        <button onclick="showPopup('detSøde')" class="produkt prodoverskrift">
+            <img src="images/detsoede-resize.webp" alt="Det søde">
+            Det søde
+        </button>
+        <div id="detSøde" class="popup">
+            <div class="blocker" onclick="hidePopup('detSøde')"></div>
+            <div class="indhold">
+                <h2>Det søde</h2>
+                <div class="indhold2">
+                    <p>Vores sortiment omfatter en bred vifte af lækre sager, herunder bolcher, skumfiduser og vingummier fra nogle af de mest elskede mærker som The Mallows, Bolcheværk, Wally and Whiz og Bolchekogeriet Almuegården. <br> <br>
+
+                        Når du træder ind i vores butik, vil du blive mødt af en overflod af farver og dufte, der vækker din søde tand. Vores udvalg af bolcher spænder fra traditionelle og klassiske varianter til nyskabende og unikke smagskombinationer, der vil overraske dine smagsløg. Skumfiduserne er luftige og delikate, perfekte til at tilfredsstille din trang til noget blødt og sødt. Og vores vingummier er fyldt med saftige smagsvarianter, der vil gøre enhver slikelsker lykkelig.</p>
+                    <img src="images/detsøde2.webp" alt="Udvalg af det søde">
+                </div>
+            </div>
+        </div>
+
+        <button onclick="showPopup('detSalte')" class="produkt prodoverskrift">
+            <img src="images/detsalte-resize.webp" alt="Det salte">
+            Det salte
+        </button>
+        <div id="detSalte" class="popup">
+            <div class="blocker" onclick="hidePopup('detSalte')"></div>
+            <div class="indhold">
+                <h2>Det salte</h2>
+                <div class="indhold2">
+                    <p>Vi er dedikeret til at tilbyde madglade entusiaster et bredt udvalg af kvalitetsvarer, der vil tilføje smag og nydelse til dine kulinariske oplevelser. <br> <br>
+
+                        Vores sortiment inkluderer en række lækre chips, der er perfekte til at nyde sammen med en øl eller som en lækker snack. Vores udvalg af chips omfatter forskellige smagsvarianter og teksturer, der vil tilfredsstille dine smagsløg og skabe den perfekte balance mellem salt og sprødhed. Vi tilbyder også vinaigretter og dressinger af højeste kvalitet, der kan løfte dine madlavningsevner til nye højder. Vores udvalg af vinaigretter omfatter forskellige smagskombinationer og ingredienser, der vil tilføje kompleksitet og dybde til dine salater, marinader og saucer.</p>
+                    <img src="images/detsalte2.webp" alt="Udvalg af det salte">
+                </div>
+            </div>
+        </div>
+
+        <button onclick="showPopup('Øl_Vin')" class="produkt prodoverskrift">
+            <img src="images/Øl_Vin.png" alt="Øl og vin">
+            Øl og vin
+        </button>
+        <div id="Øl_Vin" class="popup">
+            <div class="blocker" onclick="hidePopup('Øl_Vin')"></div>
+            <div class="indhold">
+                <h2>Øl og vin</h2>
+                <div class="indhold2">
+                    <p>Vi har et lækkert sortiment af nøje udvalgte drikkevarer i form af øl og vin. Så hvis du mangler en flaske god gin, vodka eller rom til drinks, eller bare til at nyde for sig selv, så har vi det.
+
+                        Vi har også lækre vin til alle anledninger - om det er til stegen, til desserten, eller bare til at nyde på stranden, så er vi sikre på at vi kan finde noget du vil kunne lide. Vi har også en del forskellige specialøl fra Mad Molly, som er et lokalt mikrobryggeri fra Køge.
+                    </p>
+                    <img src="images/ølOgVin.webp" alt="Øl og vin">
+                </div>
+            </div>
+        </div>
+
+        <button onclick="showPopup('Gavekort')" class="produkt prodoverskrift">
+            <img src="images/gavekort.webp" alt="Gavekort">
+            Gavekort
+        </button>
+        <div id="Gavekort" class="popup">
+            <div class="blocker" onclick="hidePopup('Gavekort')"></div>
+            <div class="indhold">
+                <h2>Gavekort</h2>
+                <div class="indhold2">
+                    <p>Bestilling af gavekort foregår ved at skrive en besked til os, enten via mail eller kontaktformularen på "Gavekurve og Blomster"-undersiden. <br> <br>
+                        
+                    Vi kan også lave det fysisk i butikken til dig.</p>
+                    <img src="images/gavekort.webp" alt="Gavekort">
+                </div>
+            </div>
+        </div>
+
+        <button onclick="showPopup('Pakkeshop')" class="produkt prodoverskrift">
+            <img src="images/pakkeshop.webp" alt="Pakkeshop">
+            Pakkeshop
+        </button>
+        <div id="Pakkeshop" class="popup">
+            <div class="blocker" onclick="hidePopup('Pakkeshop')"></div>
+            <div class="indhold">
+                <h2>Pakkeshop</h2>
+                <div class="indhold2">
+                    <p>Vi har også en GLS pakkeshop, hvilket gør det muligt for dig at hente og sende pakker nede i butikken.</p>
+                    <img src="images/pakkeshop.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footerblomster">
+        <div class="blomster">
+            <img src="images/ikoner-Mig&Frede4.webp" alt="blomster venstre">
+        </div>
+        <div class="blomster">
+            <img src="images/ikoner-Mig&Frede3.webp" alt="blomster højre">
+        </div>
+    </div>
+
+<footer>
+    <section class="column">
+        <h3>Åbningstider</h3>
+        <p>Man-fre: 11-18</p>
+        <p>Lør: 9.30-14</p>
+        <p>Søn-& helligdage: Lukket</p>
+    </section>
+    <section class="column">
+        <h3>Kontakt os</h3>
+        <a href="tel:42794336" style="font-family: 'Domine', serif;">42 79 43 36</a>
+        <a href="mailto:kontakt@migogfrede.dk" style="font-family: 'Domine', serif;">kontakt@migogfrede.dk</a>
+        <p>Mig & Frede, Kystvejen 5b,</p>
+        <p>4600 Køge</p>
+    </section>
+    <div class="column" >
+        <h3>Gavekort</h3>
+        <p>Send en mail til:</p>
+        <a href="mailto:kontakt@migogfrede.dk" style="font-family: 'Domine', serif;">kontakt@migogfrede.dk</a>
+    </div>
+    <div class="column" >
+        <h3>Følg os på sociale medier</h3>
+        <div class="some">
+            <a href="https://www.facebook.com/migogfrede" target="_blank"><img src="images/facebook.webp" alt="Facebook logo"></a>
+            <a href="https://www.instagram.com/migogfrede/" target="_blank"><img src="images/instagram.webp" alt="Instagram logo"></a>
+            <a href="#TikTok"><img src="images/tiktok.webp" alt="TikTok logo"></a>
+        </div>
+    </div>
+</footer>
+<script src="my.js"></script>
+</body>
+
+</html>
